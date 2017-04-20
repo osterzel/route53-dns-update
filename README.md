@@ -18,9 +18,9 @@ Run ```make docker``` to generate a docker container called dns-updater
 
 ### Environment Variables
 
-ROOT - The zone to update records in. eg example.com
-SUBDOMAINS - The record names that will be updated in the zone, this can be a comma seperated list. eg subdomain or subdomain1,subdomain2 ( This will example to subdomain.example.com)
-CHECK_INTERVAL - The interval to check that dns is correct default 60
+- ROOT - The zone to update records in. eg example.com
+- SUBDOMAINS - The record names that will be updated in the zone, this can be a comma seperated list. eg subdomain or subdomain1,subdomain2 ( This will example to subdomain.example.com)
+- CHECK_INTERVAL - The interval to check that dns is correct default 60
 
 ### Boto config
 
