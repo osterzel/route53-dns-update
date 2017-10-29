@@ -33,5 +33,9 @@ The main 2 options are to pass in environment variables or inject a file into th
 ### Starting the container 
 
 docker run -t -i -e ROOT=<your domain> -e SUBDOMAINS=subdomain dns-updater
+  
+### Testing
+
+make test
 
 
